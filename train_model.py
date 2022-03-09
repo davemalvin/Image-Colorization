@@ -60,9 +60,12 @@ def train_model(model, train_dl, val_dl, epochs, display_every=200):
 def run_experiment():
     train_dl = make_dataloaders(batch_size=8, n_workers=1,paths=train_paths, split='train')
     val_dl = make_dataloaders(batch_size=8, n_workers=1, paths=val_paths, split='val')
+    print('Dataloaders created...')
 
     model = MainModel()
-    train_model(model, train_dl, val_dl, 50) # Run 50 epochs    
+    num_of_epochs = 50
+    print('Training model for {} epochs...'.format(num_of_epochs))
+    train_model(model, train_dl, val_dl, num_of_epochs) # Run 50 epochs    
 
     # net_G = build_res_unet(resnet, n_input=1, n_output=2, size=256)
     # opt = optim.Adam(net_G.parameters(), lr=learningRate,weight_decay=weight_decay)
