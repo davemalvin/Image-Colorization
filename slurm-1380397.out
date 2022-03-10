@@ -1,0 +1,553 @@
+8000 2000
+Dataloaders created...
+model initialized with norm initialization
+model initialized with norm initialization
+Training model for 50 epochs...
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/torchvision/transforms/transforms.py:257: UserWarning: Argument interpolation should be of type InterpolationMode instead of int. Please, use InterpolationMode enum.
+  warnings.warn(
+
+Epoch 1/50
+Iteration 200/1000
+loss_D_fake: 0.52662
+loss_D_real: 0.54025
+loss_D: 0.53343
+loss_G_GAN: 1.30313
+loss_G_L1: 9.17638
+loss_G: 10.47951
+
+Epoch 1/50
+Iteration 400/1000
+loss_D_fake: 0.48677
+loss_D_real: 0.49745
+loss_D: 0.49211
+loss_G_GAN: 1.51314
+loss_G_L1: 9.65776
+loss_G: 11.17089
+
+Epoch 1/50
+Iteration 600/1000
+loss_D_fake: 0.48419
+loss_D_real: 0.49942
+loss_D: 0.49181
+loss_G_GAN: 1.52240
+loss_G_L1: 9.86844
+loss_G: 11.39084
+
+Epoch 1/50
+Iteration 800/1000
+loss_D_fake: 0.48305
+loss_D_real: 0.50708
+loss_D: 0.49507
+loss_G_GAN: 1.50309
+loss_G_L1: 10.04366
+loss_G: 11.54674
+
+Epoch 1/50
+Iteration 1000/1000
+loss_D_fake: 0.48082
+loss_D_real: 0.51122
+loss_D: 0.49602
+loss_G_GAN: 1.49395
+loss_G_L1: 10.16231
+loss_G: 11.65626
+--- Stats for epoch 0 ---
+loss_D_fake: 0.48082
+loss_D_real: 0.51122
+loss_D: 0.49602
+loss_G_GAN: 1.49395
+loss_G_L1: 10.16231
+loss_G: 11.65626
+Computing TRAINING accuracies...
+Train PSNR: 21.0524
+Train SSIM: 0.8831
+Computing VALIDATION accuracies...
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 22 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 14 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 18 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 4 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 16 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 15 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 2 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 6 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 55 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 105 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 11 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 3 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 57 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 19 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 157 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 65 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 61 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 10 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 20 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 158 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 37 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 7 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 98 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 92 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 5 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 12 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 1 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 112 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 338 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 99 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 47 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 30 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 28 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 46 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 115 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 211 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 76 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 96 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 183 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 9 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 56 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 35 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 27 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 49 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 36 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 32 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 131 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 13 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 8 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 58 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 29 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 43 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 45 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 111 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 33 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 295 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 124 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 87 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 31 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 21 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 218 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 25 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 236 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 17 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 52 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 167 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 42 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 40 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 473 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 181 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 38 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 140 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 122 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 189 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 53 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 39 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 23 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 90 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 34 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 515 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 88 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 24 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 205 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 123 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 103 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 119 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 332 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 44 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 272 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 136 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 141 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 106 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 155 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 229 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 266 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 220 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 109 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 74 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 64 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 330 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 147 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 113 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 50 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 93 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 82 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 75 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 201 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 227 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 63 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 101 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 26 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 342 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 126 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 116 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 186 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 80 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 73 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 95 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 179 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 84 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 72 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 59 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 195 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 66 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 62 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 51 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 79 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 399 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 67 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 71 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 48 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 94 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 243 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 192 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 121 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 68 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 207 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 187 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 262 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 83 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 77 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 246 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 54 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 128 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 146 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 249 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 91 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 129 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 125 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 81 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 357 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 89 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 175 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 41 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 86 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 104 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 69 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 354 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 172 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 78 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 442 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 70 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 107 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 178 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 139 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 135 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 168 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 194 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 244 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 171 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 137 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 149 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 206 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 188 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 233 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 144 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 353 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 102 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 204 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 255 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 180 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 60 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 339 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 138 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 132 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 130 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 97 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 269 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 224 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 374 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 248 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 100 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 120 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 460 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 150 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 162 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 154 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 118 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 164 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 127 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 235 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 225 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 402 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 117 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 159 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 108 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 169 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 234 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 395 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 345 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 210 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 523 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 216 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 85 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 966 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 193 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 163 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 134 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 114 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 313 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 133 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 209 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 363 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 161 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 231 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 214 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 283 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 312 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 145 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 261 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 142 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 676 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 156 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 166 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 456 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 165 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 349 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 333 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+/home/s1869672/miniconda3/envs/mlp/lib/python3.8/site-packages/skimage/color/colorconv.py:1109: UserWarning: Color data out of range: Z < 0 in 292 pixels
+  return xyz2rgb(lab2xyz(lab, illuminant, observer))
+Val PSNR: 21.0254
+Val SSIM: 0.8821
+Traceback (most recent call last):
+  File "expBuildBaseline.py", line 3, in <module>
+    train_model.run_experiment()
+  File "/home/s1869672/Image-Colorization/train_model.py", line 68, in run_experiment
+    train_model(model, train_dl, val_dl, num_of_epochs) # Run 50 epochs    
+  File "/home/s1869672/Image-Colorization/train_model.py", line 54, in train_model
+    save_statistics(loss_meter_dict, train_psnr, train_ssim, val_psnr, val_ssim, e)
+  File "/home/s1869672/Image-Colorization/utils.py", line 182, in save_statistics
+    writer.writerow()
+TypeError: writerow() takes exactly one argument (0 given)

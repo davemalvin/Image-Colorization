@@ -4,7 +4,7 @@ import time
 import numpy as np
 from PIL import Image
 from pathlib import Path
-from tqdm.notebook import tqdm
+from tqdm import tqdm
 import matplotlib.pyplot as plt
 from skimage.color import rgb2lab, lab2rgb
 
@@ -23,7 +23,7 @@ from pre_train import *
 
 #device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-def train_model(model, train_dl, val_dl, epochs, display_every=200):
+def train_model(model, train_dl, val_dl, epochs, display_every=501):
     data = next(iter(val_dl)) # getting a batch for visualizing the model output after fixed intrvals
     for e in range(epochs):
         loss_meter_dict = create_loss_meters() # function returing a dictionary of objects to 
