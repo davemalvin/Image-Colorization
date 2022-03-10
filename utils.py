@@ -179,7 +179,7 @@ def save_statistics(loss_dict, train_psnr, train_ssim, val_psnr, val_ssim, curre
         writer = csv.writer(f)
         values = list(loss_dict.values())
         values.extend([train_psnr, train_ssim, val_psnr, val_ssim])
-        writer.writerow()
+        writer.writerow(values)
         
     return summary_filename
 
