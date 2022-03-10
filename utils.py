@@ -177,8 +177,10 @@ def save_statistics(loss_dict, train_psnr, train_ssim, val_psnr, val_ssim, curre
     # Appending the losses and accuracies
     with open(summary_filename, 'a') as f:
         writer = csv.writer(f)
-        values = list(loss_dict.values())
-        values.extend([train_psnr, train_ssim, val_psnr, val_ssim])
+        values = []
+        for _, loss_meter in loss_dict.items():
+            values.append(round(loss_meter.avg, 4))
+        values.extend([round(train_psnr, 4), round(train_ssim, 4), round(val_psnr, 4), round(val_ssim, 4)])
         writer.writerow(values)
         
     return summary_filename
