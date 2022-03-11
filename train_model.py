@@ -54,13 +54,19 @@ def train_model(model, train_dl, val_dl, epochs, display_every=501):
         save_statistics(loss_meter_dict, train_psnr, train_ssim, val_psnr, val_ssim, e)
 
         if e in [0, 24, 49]:
-            PATH = "./baseline_epoch{}.pth".format(e)
-            torch.save(model.net_G.state_dict(), PATH)
+            PATH_G = "./baseline_netG_epoch{}.pth".format(e)
+            torch.save(model.net_G.state_dict(), PATH_G)
+            PATH_D = "./baseline_netD_epoch{}.pth".format(e)
+            torch.save(model.net_D.state_dict(), PATH_D)
 
 def run_experiment():
     train_dl = make_dataloaders(batch_size=8, n_workers=1,paths=train_paths, split='train')
     val_dl = make_dataloaders(batch_size=8, n_workers=1, paths=val_paths, split='val')
     print('Dataloaders created...')
+
+    # device config
+    device = torch.cuda.current_device()
+    print('Using GPU', device)
 
     model = MainModel()
     num_of_epochs = 50

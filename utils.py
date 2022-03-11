@@ -154,14 +154,7 @@ def compute_acc( net_G,dataloader):
 
 def save_statistics(loss_dict, train_psnr, train_ssim, val_psnr, val_ssim, current_epoch):
     """
-    Saves the statistics in stats dict into a csv file. Using the keys as the header entries and the values as the
-    columns of a particular header entry
-    :param experiment_log_dir: the log folder dir filepath
-    :param filename: the name of the csv file
-    :param stats_dict: the stats dict containing the data to be saved
-    :param current_epoch: the number of epochs since commencement of the current training session (i.e. if the experiment continued from 100 and this is epoch 105, then pass relative distance of 5.)
-    :param save_full_dict: whether to save the full dict as is overriding any previous entries (might be useful if we want to overwrite a file)
-    :return: The filepath to the summary file
+    Saves the statistics in stats dict into a csv file. 
     """
     current_path = os.path.dirname(__file__)
     summary_filename = os.path.join(current_path, 'summary.csv')
@@ -179,8 +172,8 @@ def save_statistics(loss_dict, train_psnr, train_ssim, val_psnr, val_ssim, curre
         writer = csv.writer(f)
         values = []
         for _, loss_meter in loss_dict.items():
-            values.append(round(loss_meter.avg, 4))
-        values.extend([round(train_psnr, 4), round(train_ssim, 4), round(val_psnr, 4), round(val_ssim, 4)])
+            values.append(round(loss_meter.avg, 5))
+        values.extend([round(train_psnr, 5), round(train_ssim, 5), round(val_psnr, 5), round(val_ssim, 5)])
         writer.writerow(values)
         
     return summary_filename
